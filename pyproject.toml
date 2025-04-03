@@ -1,0 +1,14 @@
+[project]
+name = "pickresolution_diffusionwave"
+description = "A custom node for ComfyUI that allows selecting a base resolution, applying a custom scaling value based on FLOAT (up to 10 decimal places), and adding an extra integer value. Outputs include both INT and FLOAT resolutions, making it perfect for you to play around with."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/DiffusionWave/PickResolution_DiffusionWave"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "PickResolution_DiffusionWave"
+Icon = ""
